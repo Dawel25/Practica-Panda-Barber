@@ -1,0 +1,134 @@
+*,*::before,*::after{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+ }
+
+body{
+    display: flex;
+}
+
+.box-img{
+    background-color: aquamarine;
+    width: 60%;
+    height: 100%;    
+    background-image: url(IMG/Panda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.trasfondo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.text-img{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20rem;
+    background-image: url(/IMG/PandaTxt.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box-login{
+    background-color: #f7f7f7;    
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text, label{    
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    font-family: Poppins-Regular, sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.text{    
+    outline: none;
+    width: 80%; 
+    height: 38px;  
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    background-color: #e8f0fe;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 6px; 
+}
+
+.bt{
+    width: 80%;   
+    font-weight: 700; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    height: 50px;
+    background-color: #3b4042;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.bt:hover{
+    cursor: pointer;
+    background-color: #3b4042e3;
+}
+
+.alin{
+    margin-left: 3.5rem;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #212529;
+}
+
+.usu{
+    margin-top: 1.5rem;
+}
+
+.box-login .cont{
+    color: #105799;
+    margin-top: 30px;
+    margin-left: 3.5rem;
+    width: 150px;
+}
+
+.ayuda{    
+    color: #666;
+    margin-top: 30px;
+    margin-left: 3.5rem;
+}
+
+.logo{
+    width: 220px;
+    height: 70.08px;
+    display: inline;    
+    margin: 0;    
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span:hover{
+    color: #105799;
+    cursor: pointer;
+}
